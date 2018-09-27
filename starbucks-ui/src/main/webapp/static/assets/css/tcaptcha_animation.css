@@ -1,0 +1,74 @@
+@-webkit-keyframes a {
+    10%, 90% {
+        -webkit-transform: translate3d(-1px, 0, 0);
+        transform: translate3d(-1px, 0, 0)
+    }
+    20%, 80% {
+        -webkit-transform: translate3d(3px, 0, 0);
+        transform: translate3d(3px, 0, 0)
+    }
+    30%, 50%, 70% {
+        -webkit-transform: translate3d(-2px, 0, 0);
+        transform: translate3d(-2px, 0, 0)
+    }
+    40%, 60% {
+        -webkit-transform: translate3d(2px, 0, 0);
+        transform: translate3d(2px, 0, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes a {
+    10%, 90% {
+        -webkit-transform: translate3d(-1px, 0, 0);
+        transform: translate3d(-1px, 0, 0)
+    }
+    20%, 80% {
+        -webkit-transform: translate3d(3px, 0, 0);
+        transform: translate3d(3px, 0, 0)
+    }
+    30%, 50%, 70% {
+        -webkit-transform: translate3d(-2px, 0, 0);
+        transform: translate3d(-2px, 0, 0)
+    }
+    40%, 60% {
+        -webkit-transform: translate3d(2px, 0, 0);
+        transform: translate3d(2px, 0, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.tcaptcha-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    transition: opacity .25s, visibility .25s, -webkit-transform .25s;
+    transition: opacity .25s, transform .25s, visibility .25s;
+    transition: opacity .25s, transform .25s, visibility .25s, -webkit-transform .25s;
+    transition-timing-function: ease-out;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translate(-30px);
+    transform: translate(-30px);
+    z-index: 1;
+    background: #fff
+}
+
+.tcaptcha-container.show {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate(0);
+    transform: translate(0)
+}
+
+.tcaptcha-container.shake {
+    -webkit-animation: a .5s;
+    animation: a .5s
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.starbucks.api.dao.TbItemDao">
+    <sql id="tbItemColumn">
+        a.id,
+        a.title,
+        a.sell_point,
+        a.price,
+        a.num,
+        a.barcode,
+        a.image,
+        a.cid,
+        a.status,
+        a.created,
+        a.updated
+    </sql>
+
+
+    <select id="selectAll" resultType="TbItemDTO">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+    </select>
+
+    <select id="getById" resultType="TbItemDTO">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+        WHERE
+        a.id=#{id}
+    </select>
+
+    <select id="getByCid" resultType="TbItemDTO">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+        WHERE
+        a.cid=#{cid}
+    </select>
+
+
+
+</mapper>

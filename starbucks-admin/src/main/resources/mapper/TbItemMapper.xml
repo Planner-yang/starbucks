@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.starbucks.admin.dao.TbItemDao">
+    <sql id="tbItemColumn">
+        a.id,
+        a.title,
+        a.sell_point,
+        a.price,
+        a.num,
+        a.barcode,
+        a.image,
+        a.cid,
+        b.id AS `tbItemCat.id`,
+        b.name AS `tbItemCat.name`,
+        a.status,
+        a.created,
+        a.updated
+    </sql>
+
+    <sql id="joinTbItemCat">
+        LEFT JOIN tb_item_cat AS b ON a.cid = b.id
+    </sql>
+    <select id="selectAll" resultType="TbItem">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+        <include refid="joinTbItemCat"/>
+    </select>
+
+    <select id="getById" resultType="TbItem">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+        <include refid="joinTbItemCat"/>
+        WHERE
+        a.id=#{id}
+    </select>
+    <select id="page" resultType="TbItem">
+        SELECT
+        <include refid="tbItemColumn"/>
+        FROM
+        tb_item AS a
+        <include refid="joinTbItemCat"/>
+        <where>
+            <if test="title != null and title != ''">
+                AND a.title LIKE concat('%',#{title},'%')
+            </if>
+        </where>
+        LIMIT #{start},#{length}
+    </select>
+    <select id="getCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM tb_item AS a
+        <where>
+            <if test="title != null and title != ''">
+                AND a.title LIKE concat('%',#{title},'%')
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert">
+        INSERT INTO tb_item(
+        id,
+        title,
+        sell_point,
+        price,
+        num,
+        barcode,
+        image,
+        cid,
+        status,
+        created,
+        updated
+        )
+        VALUES
+        (
+        #{id},
+        #{title},
+        #{sellPoint},
+        #{price},
+        #{num},
+        #{barcode},
+        #{image},
+        #{tbItemCat.id},
+        #{status},
+        #{created},
+        #{updated}
+        )
+
+    </insert>
+    <delete id="deleteById">
+        DELETE FROM tb_item WHERE id=#{id}
+    </delete>
+
+    <delete id="batchDelete">
+        DELETE
+        FROM
+        tb_item
+        WHERE id IN
+        <foreach collection="array" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+    <update id="update">
+        UPDATE
+        tb_item
+        SET
+        id=#{id},
+        title=#{title},
+        sell_point=#{sellPoint},
+        price=#{price},
+        num=#{num},
+        barcode=#{barcode},
+        image=#{image},
+        cid=#{tbItemCat.id},
+        status=#{status},
+        created=#{created},
+        updated=#{updated}
+        WHERE
+        id=#{id}
+    </update>
+</mapper>

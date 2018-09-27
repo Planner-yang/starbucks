@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="starbucks-ui:war">
+    <output-path>$PROJECT_DIR$/starbucks-ui/target</output-path>
+    <root id="archive" name="starbucks-ui-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="starbucks-ui:war exploded" />
+    </root>
+  </artifact>
+</component>

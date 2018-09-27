@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="starbucks-admin" />
+        <module name="starbucks-api" />
+        <module name="starbucks-commons" />
+        <module name="starbucks-domain" />
+        <module name="starbucks-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="starbucks" target="1.5" />
+      <module name="starbucks-admin" target="1.8" />
+      <module name="starbucks-api" target="1.8" />
+      <module name="starbucks-commons" target="1.8" />
+      <module name="starbucks-dependencies" target="1.8" />
+      <module name="starbucks-domain" target="1.8" />
+      <module name="starbucks-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

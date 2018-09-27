@@ -1,0 +1,532 @@
+body, html, input, textarea {
+    background: #fff
+}
+
+body {
+    font-family: Helvtical, microsoft yahei, sans-serif;
+    overflow: hidden
+}
+
+body ~ * {
+    display: none
+}
+
+a {
+    outline: 0;
+    text-decoration: none
+}
+
+img {
+    border: 0
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    width: 98px;
+    font-size: 13px
+}
+
+.btn.btn_default {
+    background: #fff;
+    border: 1px solid #b3b3b3;
+    color: gray
+}
+
+.btn.btn_primary {
+    background: #1a79ff;
+    border: 1px solid #1a79ff;
+    color: #fff
+}
+
+.btn.btn_verify {
+    background-position: -385px -86px
+}
+
+.btn.btn_cancel {
+    width: 100px;
+    background-position: -506px -86px
+}
+
+.btn.btn_feedback {
+    background-position: -622px -86px
+}
+
+.fb_tip {
+    position: absolute;
+    top: -5px;
+    display: none
+}
+
+.fb_tip.warn {
+    font-size: 13.46px;
+    width: 155px;
+    padding: 0 10px;
+    line-height: 34px;
+    text-align: center;
+    left: 50%;
+    margin-left: -88px;
+    top: -5px;
+    overflow: hidden
+}
+
+.fb_tip.warn .bkg {
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    _height: 100px;
+    _width: 200px;
+    z-index: 3
+}
+
+.fb_tip.warn .word {
+    color: #fff;
+    position: relative;
+    z-index: 4;
+    padding: 1px
+}
+
+.captcha_aq .cap_container {
+    border: 1px solid #e8e8e8;
+    border-top: none
+}
+
+.captcha_aq .cap_container_top {
+    border-top: 1px solid #e8e8e8 !important
+}
+
+.captcha_aq .cap_container_shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .14)
+}
+
+.captcha_aq.char .captcha_icon .tip {
+    background-image: url(/aq_icon_bubbles.png);
+    background-repeat: no-repeat
+}
+
+.container_head {
+    display: none;
+    height: 40px;
+    position: relative;
+    z-index: 2
+}
+
+.container_head .title {
+    height: 39px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #007aff;
+    text-align: left;
+    text-indent: 34px;
+    border-bottom: 1px solid #eee
+}
+
+.container_head .icon_close {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    color: #b3b3b3
+}
+
+.container_head .icon {
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    left: 8px;
+    top: 9px
+}
+
+.container_head .icon .title_icon {
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    color: #007aff;
+    z-index: 1;
+    position: relative
+}
+
+.container_head .icon .title_icon_modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    background: url(/shield_modal.png?v=1.0) no-repeat;
+    z-index: 4;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shield_modal.png?v=1.0", sizingMethod="crop")
+}
+
+.feedbackArea {
+    display: none
+}
+
+.feedbackArea .help {
+    margin: auto
+}
+
+.feedbackArea .help .help_title {
+    margin-top: 15px;
+    display: none
+}
+
+.feedbackArea .help .help_title .words {
+    float: left;
+    font-size: 16px
+}
+
+.feedbackArea .help .choose_radio {
+    margin-top: 13px;
+    position: relative;
+    width: 100%
+}
+
+.feedbackArea .help .choose_radio .ritem {
+    font-size: 12px;
+    cursor: pointer
+}
+
+.feedbackArea .help .choose_radio .ritem .radio {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-position: -277px -9px;
+    cursor: pointer;
+    position: relative
+}
+
+.feedbackArea .help .choose_radio .ritem .word {
+    margin-left: 3px;
+    width: 60px;
+    white-space: nowrap;
+    position: relative;
+    top: -3px
+}
+
+.feedbackArea .help .choose_radio .radio_pic {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.feedbackArea .help .choose_radio .radio_mid {
+    display: inline-block
+}
+
+.feedbackArea .help .choose_radio .radio_fail {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.feedbackArea .help .feedback_word {
+    margin-top: 12px;
+    position: relative
+}
+
+.feedbackArea .help .feedback_word textarea {
+    width: 258px;
+    height: 40px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Helvtical, microsoft yahei, sans-serif;
+    outline: none;
+    overflow: auto;
+    border: 1px solid #e6e6e6;
+    display: block
+}
+
+.feedbackArea .help .feedback {
+    margin-top: 10px
+}
+
+.feedbackArea .help .feedback .helpCenter {
+    font-size: 12px;
+    color: #007aff;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px
+}
+
+.feedbackArea .help .feedback .btn {
+    float: right
+}
+
+.feedbackArea .help .feedback .cancel {
+    margin-right: 10px
+}
+
+.result {
+    display: none
+}
+
+.result .pic {
+    width: 47px;
+    height: 53px;
+    margin: auto
+}
+
+.result .main_word {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666
+}
+
+.result .sub_word {
+    margin-top: 10px;
+    color: #999;
+    font-size: 13px
+}
+
+.captcha_aq.char {
+    text-align: center
+}
+
+.captcha_aq.char .container_wrap {
+    width: 298px;
+    margin: auto;
+    text-align: center
+}
+
+.captcha_aq.char .container {
+    width: 280px;
+    height: 150px;
+    border-top: none;
+    display: inline-block;
+    padding-left: 9px;
+    padding-right: 9px;
+    position: relative;
+    _overflow: hidden;
+    *padding-left: 0;
+    *padding-right: 0
+}
+
+.captcha_aq.char .container .tip_success {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 6
+}
+
+.captcha_aq.char .container .tip_success .tip_bkg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    z-index: 7
+}
+
+.captcha_aq.char .container .tip_success .tip_icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 8;
+    width: 100%;
+    height: 100%
+}
+
+.captcha_aq.char .container .tip_success .tip_icon .pic {
+    margin-top: 30px
+}
+
+.captcha_aq.char .container .tip_success .tip_icon .main_word {
+    margin-top: 10px;
+    color: #333;
+    font-size: 18px
+}
+
+.captcha_aq.char .container .capachArea .layout {
+    text-align: left
+}
+
+.captcha_aq.char .container .capachArea .layout .title {
+    display: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 24px
+}
+
+.captcha_aq.char .container .capachArea .layout .info {
+    font-size: 13px;
+    padding-top: 12px
+}
+
+.captcha_aq.char .container .capachArea .layout .char {
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box
+}
+
+.captcha_aq.char .container .capachArea .layout .char .left {
+    float: left
+}
+
+.captcha_aq.char .container .capachArea .layout .char .right {
+    border-left: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left
+}
+
+.captcha_aq.char .container .capachArea .layout .char .right .wrap {
+    line-height: 51px;
+    *line-height: 45px
+}
+
+.captcha_aq.char .container .capachArea .layout .char .cimg {
+    width: 138px;
+    height: 51px;
+    display: block;
+    cursor: pointer
+}
+
+.captcha_aq.char .container .capachArea .layout .char .cinput {
+    height: 51px;
+    *height: 45px;
+    line-height: 51px;
+    *line-height: 45px;
+    width: 123px;
+    *width: 117px;
+    padding: 0 8px;
+    border: none;
+    outline: none;
+    display: block;
+    font-family: Helvtical, microsoft yahei, sans-serif;
+    font-size: 13px
+}
+
+.captcha_aq.char .container .capachArea .layout .char .fb_tip {
+    width: 150px;
+    margin-left: -85px
+}
+
+.captcha_aq.char .container .capachArea .opArea {
+    font-size: 13px;
+    margin-top: 10px
+}
+
+.captcha_aq.char .container .capachArea .opArea .info {
+    float: left;
+    margin-left: 15px;
+    height: 45px;
+    line-height: 45px;
+    color: #222;
+    font-size: 13px
+}
+
+.captcha_aq.char .container .capachArea .opArea .info.error {
+    color: #ff8000
+}
+
+.captcha_aq.char .container .capachArea .opArea .captcha_icon {
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-top: 7px;
+    float: left
+}
+
+.captcha_aq.char .container .capachArea .opArea .refresh {
+    margin-right: 10px
+}
+
+.captcha_aq.char .container .capachArea .opArea .refresh .tip {
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/cap_bubble_left_refresh.png", sizingMethod="crop")
+}
+
+.captcha_aq.char .container .capachArea .opArea .help {
+    background-position: -39px -7px;
+    margin-right: 15px
+}
+
+.captcha_aq.char .container .capachArea .opArea .help .tip {
+    background-position: -104px -5px;
+    right: -35px;
+    _right: -40px;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/cap_bubble_left_feedback.png", sizingMethod="crop")
+}
+
+.captcha_aq.char .container .capachArea .opArea .btn {
+    float: right;
+    letter-spacing: 5px;
+    text-indent: 2.5px
+}
+
+.captcha_aq.char .container .result {
+    margin-top: 16px
+}
+
+.captcha_aq.char .captcha_icon {
+    position: relative
+}
+
+.captcha_aq.char .captcha_icon .tip {
+    height: 40px;
+    line-height: 33px;
+    color: #007aff;
+    font-size: 13px;
+    background-position: -7px -5px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 94px;
+    top: -45px;
+    right: -67px;
+    z-index: 5
+}
+
+.captcha_aq .clear_both {
+    clear: both
+}
+
+.captcha_aq .waterMask {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 0 3px;
+    color: #ddd;
+    background: #255fba;
+    opacity: .6;
+    display: none;
+    z-index: 7
+}
+
+.captcha_aq .CT_btn_disabled {
+    background: #dedede !important;
+    color: #bdbec9 !important;
+    border: transparent
+}
