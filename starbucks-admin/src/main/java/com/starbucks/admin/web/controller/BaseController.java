@@ -19,7 +19,7 @@ import java.util.List;
  * @ date 2018/9/25 19:13
  */
 
-public abstract class BaseContorller<T extends BaseEntity, S extends BaseService<T>> {
+public abstract class BaseController<T extends BaseEntity, S extends BaseService<T>> {
 
     @Autowired
     protected S service;

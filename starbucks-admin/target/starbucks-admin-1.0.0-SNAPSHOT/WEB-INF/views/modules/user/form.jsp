@@ -21,7 +21,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                ${empty tbUser.id? '增加':'编辑'}用户
+                ${tbUser.id == 0 || tbUser.id == null? '增加':'编辑'}用户
             </h1>
             <ol class="breadcrumb">
                 <li><a href="/main"><i class="fa fa-dashboard"></i>首页</a></li>

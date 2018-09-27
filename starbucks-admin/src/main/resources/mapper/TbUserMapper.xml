@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.starbucks.admin.dao.TbUserDao">
+    <sql id="tbUserColumn">
+        a.id,
+        a.username,
+        a.password,
+        a.phone,
+        a.email,
+        a.created,
+        a.updated
+    </sql>
+    <select id="selectAll" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumn"/>
+        FROM
+        tb_user AS a
+    </select>
+
+    <select id="getUserByEmail" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumn"/>
+        FROM
+        tb_user AS a
+        WHERE
+        a.email=#{email}
+    </select>
+    <select id="getById" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumn"/>
+        FROM
+        tb_user AS a
+        WHERE
+        a.id=#{id}
+    </select>
+    <select id="page" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumn"/>
+        FROM
+        tb_user AS a
+        <where>
+            <if test="username != null and username != ''">
+                AND a.username LIKE concat('%',#{username},'%')
+            </if>
+            <if test="email != null and email != ''">
+                AND a.email LIKE concat('%',#{email},'%')
+            </if>
+            <if test="phone != null and phone != ''">
+                AND a.phone LIKE concat(#{phone},'%')
+            </if>
+        </where>
+        LIMIT #{start},#{length}
+    </select>
+    <select id="getCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM tb_user AS a
+        <where>
+            <if test="username != null and username != ''">
+                AND a.username LIKE concat('%',#{username},'%')
+            </if>
+            <if test="email != null and email != ''">
+                AND a.email LIKE concat('%',#{email},'%')
+            </if>
+            <if test="phone != null and phone != ''">
+                AND a.phone LIKE concat(#{phone},'%')
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert">
+        INSERT INTO tb_user(
+        username,
+        password,
+        phone,
+        email,
+        created,
+        updated
+        )
+        VALUES
+        (
+        #{username},
+        #{password},
+        #{phone},
+        #{email},
+        #{created},
+        #{updated}
+        )
+
+    </insert>
+    <delete id="deleteById">
+      DELETE FROM tb_user WHERE id=#{id}
+    </delete>
+
+    <delete id="batchDelete">
+      DELETE
+      FROM
+      tb_user
+      WHERE id IN
+      <foreach collection="array" open="(" close=")" item="id" separator=",">
+          #{id}
+      </foreach>
+    </delete>
+    <update id="update">
+        UPDATE
+        tb_user
+        SET
+        username=#{username},
+        password=#{password},
+        phone=#{phone},
+        email=#{email},
+        updated=#{updated}
+        WHERE
+        id=#{id}
+    </update>
+</mapper>

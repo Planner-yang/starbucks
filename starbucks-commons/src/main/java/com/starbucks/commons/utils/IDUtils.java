@@ -11,7 +11,7 @@ import java.util.Random;
 public class IDUtils {
 
     public static long count = 0;
-    public static int idLength = 3;
+    public static int idLength = 1;
 
     public static long generateId () {
         long currentTimeMillis = System.currentTimeMillis();

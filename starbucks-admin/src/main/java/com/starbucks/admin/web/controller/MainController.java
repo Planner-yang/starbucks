@@ -1,0 +1,18 @@
+package com.starbucks.admin.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+/**
+ * @ author xwj
+ * @ date 2018/8/29 11:24
+ */
+@Controller
+public class MainController {
+
+    @RequestMapping(value = "main", method = RequestMethod.GET)
+    public String main() {
+        return "main";
+    }
+}
