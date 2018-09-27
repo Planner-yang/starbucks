@@ -1,5 +1,7 @@
 com\starbucks\ui\controller\MainController.class
 com\starbucks\ui\dto\TbItemCat.class
 com\starbucks\ui\api\API.class
+com\starbucks\ui\api\TbItemApi.class
+com\starbucks\ui\dto\TbItem.class
 com\starbucks\ui\api\TbItemCatApi.class
 com\starbucks\ui\controller\MenuController.class

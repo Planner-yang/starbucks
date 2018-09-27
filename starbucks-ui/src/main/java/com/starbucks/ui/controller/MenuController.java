@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,14 +27,43 @@ public class MenuController {
         return "/menu/menu";
     }
 
+    /**
+     *
+     * @param model
+     * @param parentId
+     * @return
+     */
     @RequestMapping(value = "list",method = RequestMethod.GET)
     public String list(Model model, long parentId) {
+        //分类列表
         List<TbItemCat> itemCats = TbItemCatApi.list(parentId);
-        TbItemCat tbItemCat = TbItemCatApi.getParentName(parentId);
-        List<TbItem> items = TbItemApi.list(parentId);
         model.addAttribute("itemCats", itemCats);
-        model.addAttribute("items",items);
+        //类名称
+        TbItemCat tbItemCat = TbItemCatApi.getParentName(parentId);
         model.addAttribute("tbItemCat", tbItemCat);
+
+        //展示所有商品
+        List<TbItem> itemList = new ArrayList<>();
+        for (TbItemCat itemCat : itemCats) {
+            List<TbItem> list = TbItemApi.list(itemCat.id);
+            for (TbItem tbItem : list) {
+                itemList.add(tbItem);
+            }
+        }
+
+        model.addAttribute("items",itemList);
+        return "/menu/list";
+    }
+
+
+    @RequestMapping(value = "tbItem/list", method = RequestMethod.GET)
+    public String tbItemList(Model model, long cid) {
+        //类名称
+        TbItemCat tbItemCat = TbItemCatApi.getParentName(cid);
+        model.addAttribute("tbItemCat", tbItemCat);
+        //商品列表
+        List<TbItem> items = TbItemApi.list(cid);
+        model.addAttribute("items",items);
         return "/menu/list";
     }
 }

@@ -15,18 +15,15 @@ public class IDUtils {
 
     public static long generateId () {
         long currentTimeMillis = System.currentTimeMillis();
-
-        Random random = new Random();
-        int i = random.nextInt(899) + 100;
+        long random = (long) (100 + Math.random() * 899);
         count++;
 
         if (String.valueOf(count).length() > idLength) {
             count = 0;
         }
 
-        String id = String.format("%s%s%s", currentTimeMillis, i, StringUtils.leftPad(String.valueOf(count), idLength, "0"));
-
-        return Long.parseLong(id);
+        String strId = String.format("%s%s%s", currentTimeMillis, random, StringUtils.leftPad(String.valueOf(count), idLength, "0"));
+        return Long.parseLong(strId);
     }
 
 }

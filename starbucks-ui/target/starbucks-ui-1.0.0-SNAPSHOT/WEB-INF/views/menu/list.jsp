@@ -68,14 +68,14 @@
                         <ul class='subcategories'>
 
                             <li>
-                                <a id='side_menu_all' href='#' class='active'>
+                                <a id='side_menu_all' href='/menu/list?parentId=${tbItemCat.parentId < 2?2:tbItemCat.parentId}' class='active'>
                                     全部
                                 </a>
                             </li>
 
                             <c:forEach items="${itemCats}" var="itemCat">
                                 <li>
-                                    <a id='side_menu_beverages' href='/menu/list?parentId=${itemCat.id}'>
+                                    <a id='side_menu_beverages' href='/menu/tbItem/list?cid=${itemCat.id}'>
                                             ${itemCat.name}
                                     </a>
                                 </li>
@@ -102,11 +102,11 @@
                     <li>
 
 
-                        <a id='menu-product-related-affogato' href='#'
+                        <a id='menu-product-related-affogato' href='/item?id=${item.id}'
                            class='thumbnail'>
 
                             <div class='preview circle'
-                                 style='background-image: url("/images/products/affogato.jpg")'></div>
+                                 style='background-image: url("/items/img/${item.image}")'></div>
                             <strong>${item.title}</strong>
 
                         </a>

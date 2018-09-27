@@ -1,5 +1,10 @@
 com\starbucks\api\dao\TbItemCatDao.class
 com\starbucks\api\web\controller\TbItemCatV1Controller.class
 com\starbucks\api\dto\TbItemCatDTO.class
+com\starbucks\api\service\impl\TbItemServiceImpl.class
 com\starbucks\api\service\TbItemCatService.class
+com\starbucks\api\service\TbItemService.class
+com\starbucks\api\dto\TbItemDTO.class
 com\starbucks\api\service\impl\TbItemCatServiceImpl.class
+com\starbucks\api\dao\TbItemDao.class
+com\starbucks\api\web\controller\TbItemV1Controller.class

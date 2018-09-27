@@ -14,7 +14,7 @@ public class TbItemApi {
 
     /**
      * 根据cId查询商品
-     * @param cId
+     * @param cid
      * @return
      */
     public static List<TbItem> list(long cid) {

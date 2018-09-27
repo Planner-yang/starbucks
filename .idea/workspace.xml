@@ -2,11 +2,127 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="starbucks-ui:war exploded" />
+      <artifact name="starbucks-admin:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e63e85-486d-4c5c-87da-2684139572a0" name="Default Changelist" comment="" />
+    <list default="true" id="b8e63e85-486d-4c5c-87da-2684139572a0" name="Default Changelist" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-black-bronze-brand-handle-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-black-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-silver-white-brand-handle-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-true-essence-stainless-steel-bottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-white-frosted-glass-cup.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/12oz-white-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/16oz-black-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/16oz-black-wooden-stainless-steel-bottle-with-strap.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/16oz-champagne-gold-brand-stainless-steel-cup.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/16oz-true-essence-stainless-steel-travel-bottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/16oz-white-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/3oz-black-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/3oz-white-gilded-brand-mug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/500ml-black-logo-water-bottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/500ml-gold-logo-water-bottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/500ml-white-logo-water-bottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/9oz-reserve-glass-cup.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/Starbucks-mints.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/affogato.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/american-style-pancakes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/avocado-and-chicken-bagel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/bacon-and-egg-croissant-bun.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/bacon-and-egg-wrap.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/beef-baguette.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/black-tea-latte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/blackcurrant-raspberry.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/blueberry-and-cookie-style-cheesecake.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/blueberry-muffin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/breakfast-blend-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/caffe-americano.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/caffe-latte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/caffe-mocha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/caramel-espresso-frappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/caramel-macchiato.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cashews.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/chicken-panini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/chocolate-muffin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cinnamon-swirl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cold-brew-float.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cold-brew-malt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cold-brew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/cold-foam-cold-brew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/colombia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/eclair.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/espresso-frappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/espresso.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/ethiopia-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/extra-shot-mocha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/flat-white.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/french-butter-croissant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/fruitnnuts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/greek-flavored-yoghurt-mixed-berry.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/greek-flavored-yoghurt-yellow-peach.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/green-tea-frappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/green-tea-latte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/guatemala-antigua-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/ham-and-cheese-croissant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/ham-and-double-cheese-croque-monsieur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/ham-and-gouda-sandwich.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/hazelnut-croissant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/hazelnut-flavored-latte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/honey-raisin-scone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/house-blend-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/iced-shaken-honey-ruby-grapefruit-black-tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/iced-shaken-mango-herbal-juiced-tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/iced-shaken-peach-green-tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/kenya-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/lollipops.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/macaron.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mango-passion-tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mocha-frappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mocha-java-chip-frappuccino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mooncake-xingqing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mooncake-xingyi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/mooncake-xingyue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/new-york-style-creamy-cheesecake.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/nitro-cold-brew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/pike-place-roast-coffee-beans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/premium-chocolate-croissant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/shortbread.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/signature-chocolate-beverage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/slow-roasted-ham-cheese-ciabatta.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/south-of-the-clouds.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/starbucks-chewing-gum.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/starbucks-coffee-tiramisu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/triple-dark-chocolate-cake.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/tuna-panini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/turkey-bacon-english-muffin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/vanilla-flavor-sweet-cream-cold-brew.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/vanilla-flavored-cream-frappuccino-blended-beverage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/vanilla-flavored-latte.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/waferrolls.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/static/assets/images/items/whole-wheat-walnut-muffin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/UploadController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-admin/target/starbucks-admin-1.0.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/starbucks-admin/target/starbucks-admin-1.0.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/starbucks-api/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/starbucks-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/IDUtils.java" afterPath="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/IDUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/starbucks-commons/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/starbucks-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/starbucks-domain/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/starbucks-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp" afterPath="$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/starbucks-ui/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/starbucks-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/starbucks-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starbucks-ui/target/starbucks-ui-1.0.0-SNAPSHOT/WEB-INF/views/menu/list.jsp" afterPath="$PROJECT_DIR$/starbucks-ui/target/starbucks-ui-1.0.0-SNAPSHOT/WEB-INF/views/menu/list.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/starbucks-api/target/" />
@@ -86,106 +202,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/jdbc.properties">
+      <file leaf-file-name="BaseContorller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/BaseContorller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/log4j.properties">
+      <file leaf-file-name="starbucks.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/static/assets/app/starbucks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-312">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/WEB-INF/views/modules/item/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2664">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-context-druid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context-druid.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/dto/TbItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1537874728033" expanded="true" signature="5567:5573" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5573:5579" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5579:5585" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5585:5591" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5734:5740" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5740:5746" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5746:5752" ph="&amp;nbsp;" />
+                <marker date="1537874728033" expanded="true" signature="5752:5758" ph="&amp;nbsp;" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemApi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/dto/TbItemCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-context-mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -237,6 +288,9 @@
       <replace>/static/assets/icon</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -245,8 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/utils/MapperUtils.java" />
-        <option value="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/utils/IDUtils.java" />
         <option value="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/RegexpUtils.java" />
         <option value="$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/constants/HttpStatusConstant.java" />
@@ -280,12 +332,9 @@
         <option value="$PROJECT_DIR$/starbucks-api/src/test/java/com/starbucks/api/test/TbItemServiceTest.java" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/starbucks-admin/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/API.java" />
-        <option value="$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/java/com/starbucks/api/dto/TbItemDTO.java" />
         <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/dto/TbItem.java" />
-        <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/resources/mapper/TbItemMapper.xml" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/java/com/starbucks/api/dao/TbItemDao.java" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/java/com/starbucks/api/service/impl/TbItemServiceImpl.java" />
@@ -296,6 +345,11 @@
         <option value="$PROJECT_DIR$/starbucks-api/src/main/java/com/starbucks/api/service/TbItemService.java" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/java/com/starbucks/api/web/controller/TbItemV1Controller.java" />
         <option value="$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context-mybatis.xml" />
+        <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java" />
+        <option value="$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp" />
+        <option value="$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/IDUtils.java" />
       </list>
     </option>
   </component>
@@ -352,9 +406,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2186" />
+    <option name="y" value="15" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -373,8 +427,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,177 +437,188 @@
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-api" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
               <item name="starbucks" type="462c0819:PsiDirectoryNode" />
-              <item name="starbucks-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starbucks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starbucks" type="462c0819:PsiDirectoryNode" />
+              <item name="starbucks-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,29 +628,29 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/starbucks-admin/target/starbucks-admin-1.0.0-SNAPSHOT/static/images/items" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\starbucks\starbucks-api\src\main\resources\mapper" />
-      <recent name="D:\Workspace\starbucks\starbucks-api\src\main\resources" />
-      <recent name="D:\Workspace\starbucks\starbucks-api\src\main" />
-      <recent name="D:\Workspace\starbucks\starbucks-commons\src\main\java\com\starbucks\commons\utils" />
-      <recent name="D:\Workspace\starbucks\starbucks-admin\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\starbucks\starbucks-ui\src\main\webapp\WEB-INF\views\menu" />
+      <recent name="D:\Workspace\starbucks\starbucks-ui\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.starbucks.admin.web.controller" />
       <recent name="com.starbucks.api.test" />
       <recent name="com.starbucks.commons.dto" />
       <recent name="com.starbucks.commons.constants" />
       <recent name="com.starbucks.commons.validator" />
-      <recent name="com.starbucks.admin.web.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\starbucks\starbucks-ui\src\main\webapp\WEB-INF\views\menu" />
-      <recent name="D:\Workspace\starbucks\starbucks-ui\src\main\webapp\WEB-INF\views" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\git\starbucks\starbucks-admin\target\starbucks-admin-1.0.0-SNAPSHOT\static\images" />
+      <recent name="D:\Workspace\git\starbucks\Images" />
+      <recent name="D:\Workspace\git\starbucks\starbucks-ui\src\main\webapp\static\assets\images\items" />
+      <recent name="D:\Workspace\starbucks\starbucks-api\src\main\resources\mapper" />
+      <recent name="D:\Workspace\starbucks\starbucks-api\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -602,7 +665,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Starbucks-ui">
+  <component name="RunManager" selected="Tomcat Server.Starbucks-admin">
     <configuration name="Starbucks-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_152\jre">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -829,6 +892,11 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <file path="$PROJECT_DIR$/starbucks-admin/target/starbucks-admin-1.0.0-SNAPSHOT/static/images/items">
+          <settings>
+            <option name="CONTEXT_PATH" value="/items/img" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_starbucks_2" />
@@ -1110,6 +1178,7 @@
       <workItem from="1537959183096" duration="14230000" />
       <workItem from="1538009599089" duration="1241000" />
       <workItem from="1538018467273" duration="5775000" />
+      <workItem from="1538028627309" duration="14567000" />
     </task>
     <servers />
   </component>
@@ -1146,11 +1215,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79379000" />
+    <option name="totallyTimeSpent" value="93946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.669924" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
@@ -1164,17 +1232,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27361563" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27173913" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43648207" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43586957" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1206,7 +1274,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4538545" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27173913" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1214,10 +1282,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43648207" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43586957" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1239,7 +1307,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="49" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1252,128 +1320,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/starbucks-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-881">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-dependencies/starbucks-dependencies.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.17.RELEASE/spring-core-4.3.17.RELEASE.jar!/org/springframework/util/ClassUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="84" lean-forward="true" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="76" column="40" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="76" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/resources/mapper/TbItemCatMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="1142" column="5" lean-forward="true" selection-start-line="1142" selection-start-column="5" selection-end-line="1142" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/dto/BaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="532" column="0" lean-forward="false" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/MapperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/HttpClientUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-566">
@@ -1422,15 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,15 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="100" column="55" lean-forward="true" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,7 +1399,7 @@
         <state relative-caret-position="285">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1500,7 +1428,7 @@
         <state relative-caret-position="408">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1518,10 +1446,10 @@
         <state relative-caret-position="328">
           <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1531,7 +1459,7 @@
         <state relative-caret-position="288">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1541,7 +1469,7 @@
         <state relative-caret-position="232">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1559,9 +1487,9 @@
         <state relative-caret-position="208">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1571,7 +1499,7 @@
         <state relative-caret-position="408">
           <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1591,7 +1519,7 @@
     <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1623,14 +1551,14 @@
     <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starbucks-api/src/main/resources/spring-context-druid.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1646,29 +1574,191 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/dto/TbItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="432">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/api/TbItemApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/dao/BaseTreeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/dao/TbItemCatDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/service/TbItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/static/upload/0c209851-1893-48b2-a9e1-2e14b517d38e.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/webapp/WEB-INF/views/menu/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/WEB-INF/views/modules/item/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="119" column="26" lean-forward="false" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-ui/src/main/java/com/starbucks/ui/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/dao/TbItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-commons/src/main/java/com/starbucks/commons/utils/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/service/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/service/impl/TbItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/java/com/starbucks/admin/web/controller/BaseContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/WEB-INF/views/modules/item/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2664">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537874728033" expanded="true" signature="5567:5573" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5573:5579" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5579:5585" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5585:5591" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5734:5740" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5740:5746" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5746:5752" ph="&amp;nbsp;" />
+            <marker date="1537874728033" expanded="true" signature="5752:5758" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starbucks-admin/src/main/webapp/static/assets/app/starbucks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1816,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>starbucks-commons</last-edited>
+          <last-edited>starbucks-ui</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
