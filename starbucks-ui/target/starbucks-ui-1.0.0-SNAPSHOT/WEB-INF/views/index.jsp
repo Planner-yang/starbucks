@@ -1,47 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Planner
-  Date: 2018/9/25
-  Time: 11:02
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0029)https://www.starbucks.com.cn/ -->
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" async="" src="/static/assets/js/analytics.js"></script>
-    <script src="/static/assets/js/hm.js"></script>
+    <script src="../../static/assets/js/hm.js"></script>
+    <script src="../../static/assets/js/jquery.min.js"></script>
+    <script src="../../static/assets/js/scripts.js"></script>
     <script async="" src="/static/assets/js/gtm.js"></script>
     <script>window.dataLayer = [];</script>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MGKBKT5');</script>
-    <!-- End Google Tag Manager -->
-
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement('script');
-            hm.src = 'https://hm.baidu.com/hm.js?8dfa8fb7ffbd0407c8562282198066a6';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-
     <title>星巴克 | 用每一杯咖啡传递星巴克独特的咖啡体验</title>
 
     <!-- Meta -->
@@ -85,7 +53,6 @@
           sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.starbucks.com.cn/assets/favicons/favicon-16x16.png"
           sizes="16x16">
-    <link rel="manifest" href="https://www.starbucks.com.cn/assets/favicons/manifest.json">
     <link rel="mask-icon" href="https://www.starbucks.com.cn/assets/favicons/safari-pinned-tab.svg" color="#ef233c">
     <link rel="shortcut icon" href="https://www.starbucks.com.cn/assets/favicons/favicon.ico">
     <%--<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">--%>
@@ -123,17 +90,17 @@
                     <ul>
 
                         <li class="stores">
-                            <a id="stores-primary" href="#">
+                            <a id="stores-primary" href="stores">
                                 门店
                             </a>
                         </li>
 
                         <li class="account">
-                            <a id="account-primary" href="/login"><span data-reactroot="" class="">我的帐户</span></a>
+                            <a id="account-primary" href="vipHelp"><span data-reactroot="" class="">我的帐户</span></a>
                         </li>
 
                         <li class="menu">
-                            <a id="menu-primary" href="/menu">
+                            <a id="menu-primary" href="menu">
                                 菜单
                             </a>
                         </li>
@@ -142,20 +109,25 @@
                 </div>
 
                 <a class="icon trigger" rel="nav-overlay" id="nav-menu">
-                    <img src="/static/assets/images/icon-hamburger.svg">
+                    <img src="../../static/assets/images/icon-hamburger.svg">
                     <span>更多</span>
                 </a>
 
             </header>
 
             <div class="body">
-                <div class="container middle secondary">
-                    <div data-reactroot=""><span><div class="display-1"><span>心情惬意，来杯咖啡吧&nbsp;☕</span></div><footer
-                            class="account margin2 mobile-hidden"><a class="sign-in"
-                                                                     href="/login"><img
-                            src="/static/assets/images/icon-account.svg"><span><span>登录</span></span></a><a
-                            class="button small register"
-                            href="/register"><span><span>注册</span></span></a></footer></span>
+                <div  class="container middle secondary">
+                    <div data-reactroot="">
+                        <span>
+                            <div class="display-1">
+                                <span>心情惬意，来杯咖啡吧&nbsp;☕</span>
+                            </div>
+                            <footer class="account margin2 mobile-hidden">
+                            <a class="sign-in" href="#"><img src="/static/assets/images/icon-account.svg">
+                                <span><span>登录</span></span></a>
+                                <a class="button small register" href="#"><span><span>注册</span></span></a>
+                            </footer>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -165,7 +137,7 @@
         <div class="overlay " id="nav-overlay">
             <div class="container">
                 <header class="header">
-                    <a class="logo" href="/main">
+                    <a class="logo" href="https://www.starbucks.com.cn/">
                         <img src="/static/assets/images/logo.svg" alt="星巴克">
                     </a>
                     <button class="icon close">Close</button>
@@ -187,7 +159,7 @@
 
 
                             <li>
-                                <a id="menu-overlay" href="#">
+                                <a id="menu-overlay" href="menu">
                                     菜单
                                 </a>
                             </li>
@@ -256,11 +228,11 @@
                             </li>
                         </ul>
                         <footer class="account">
-                            <div><span data-reactroot=""><a id="menu-login" class="sign-in"
-                                                                                href="/login"><img
+                            <div id="account-logout"><span data-reactroot=""><a id="menu-login" class="sign-in"
+                                                                                href="#"><img
                                     src="/static/assets/images/icon-account.svg"><span><span>登录</span></span></a><a
                                     id="menu-join" class="button small register"
-                                    href="/register"><span><span>注册</span></span></a></span>
+                                    href="https://www.starbucks.com.cn/account/register/"><span><span>注册</span></span></a></span>
                             </div>
                         </footer>
                     </div>
@@ -315,7 +287,7 @@
                     <div class="slick-track" role="listbox"
                          style="opacity: 1; width: 5315px; transform: translate3d(-2126px, 0px, 0px); transition: transform 500ms linear 0s;">
                         <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1"
-                             style="width: 1063px;"><span id="" class="block relative"><span></span><img
+                             style="width: 1063px;"><span class="block relative"><span></span><img
                                 src="/static/assets/images/fp-cold-foam.jpg" class="tablet-block mobile-hidden"><img
                                 src="/static/assets/images/fp-cold-mobile.jpg" class="show-mobile tablet-hidden"></span>
                         </div>
@@ -360,9 +332,7 @@
         <section class="promotion">
             <div class="wrapper fluid">
                 <div class="grid columns-3 padded-2">
-                    <a id="home-left-campaign" href="http://tb.cn/yoaztMw"
-                       onclick="if (window.innerWidth &gt;= 800) this.href=&quot;http://starbucks.tmall.com/p/rd462644.htm&quot;;"
-                       target="_blank"><img src="/static/assets/images/starbucks-tmall-0910-cn.jpg"></a>
+
                     <a id="home-middle-campaign" href="#" target="_blank"><img
                             src="/static/assets/images/starbucks-design-studio-web-china.jpg"></a>
                     <a id="home-right-campaign" href="#" target="_blank"><img
@@ -370,12 +340,6 @@
                 </div>
             </div>
         </section>
-
-        <script type="text/javascript">
-            window._promotion_url = '';
-            window._promotion_content = '';
-        </script>
-
         <section class="program-msr bg-white">
             <div class="wrapper">
                 <div class="grid columns-2 padded-2">
@@ -407,7 +371,8 @@
                            onclick="if (window.innerWidth &gt;= 800) this.href= &quot;https://starbucks.tmall.com/p/rd515396.htm?spm=a1z10.1-b-s.w5001-14489348230.7.MtuIoi&quot;;"
                            target="_blank">
                             <img src="/static/assets/images/tmall-card-01.png">
-                            <p class="title-1"><strong>星享卡</strong></p>
+                            <p class="title-1"><strong>星享
+                                卡</strong></p>
                             <p class="margin2">开始您的<br>星巴克专属之旅</p>
                             <p class="caption">了解更多 ›</p>
                         </a>
@@ -457,40 +422,6 @@
                 <div class="scroll-arrow scroll-arrow-left hidden">
                     <img src="/static/assets/images/icon-scroll-left.svg">
                 </div>
-                <div class="scroll">
-                    <div class="wrapper">
-                        <div class="scroll-items">
-                            <a id="home-blog-origin" target="_blank" href="#" class="thumbnail rect card">
-                                <div class="preview"
-                                     style="background-image: url(/static/assets/images/coffeehouse-coffee-cultivation-kv.jpg)"></div>
-                                <span class="tag">咖啡知识</span>
-                                <!-- <time>08/07/2017</time> -->
-                                <strong>咖啡的起源与培植</strong>
-                            </a>
-                            <a id="home-blog-fundamentals" target="_blank" href="#" class="thumbnail rect card">
-                                <div class="preview"
-                                     style="background-image: url(/assets/images/homepage/coffeehouse-4-fundamentals-kv.jpg)"></div>
-                                <span class="tag">咖啡品鉴</span>
-                                <!-- <time>08/07/2017</time> -->
-                                <strong>咖啡调制</strong>
-                            </a>
-                            <a id="home-blog-roast" target="_blank" href="#" class="thumbnail rect card">
-                                <div class="preview"
-                                     style="background-image: url(/assets/images/homepage/coffeehouse-roast-story-kv.jpg)"></div>
-                                <span class="tag">咖啡知识</span>
-                                <!-- <time>08/07/2017</time> -->
-                                <strong>咖啡烘焙</strong>
-                            </a>
-                            <a id="home-blog-pour" target="_blank" href="#" class="thumbnail rect card">
-                                <div class="preview"
-                                     style="background-image: url(/assets/images/homepage/coffeehouse-pour-over-kv.jpg)"></div>
-                                <span class="tag">咖啡品鉴</span>
-                                <!-- <time>08/07/2017</time> -->
-                                <strong>手冲咖啡</strong>
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div class="scroll-arrow scroll-arrow-right">
                     <img src="/static/assets/images/icon-scroll-right.svg">
                 </div>
@@ -512,90 +443,7 @@
 
 
 <!-- Navigation bottom mobile -->
-<div class="primary-mobile">
-    <ul class="flex justify-around logging-in-element">
 
-        <li class="home" id="home-mobile">
-            <a href="/main">
-        <span class="icons">
-          <img src="/static/assets/images/icon-home.svg">
-          <img src="/static/assets/images/icon-home-active.svg" class="active">
-        </span>
-                <div id="home-mobile">主页</div>
-            </a>
-        </li>
-
-        <li class="stores" id="stores-mobile">
-            <a href="#">
-        <span class="icons">
-          <img src="/static/assets/images/icon-stores.svg">
-          <img src="/static/assets/images/icon-stores-active.svg" class="active">
-        </span>
-                <div id="stores-mobile">门店</div>
-            </a>
-        </li>
-
-        <li class="account">
-            <a href="/login" class="active">
-        <span class="icons">
-          <img src="/static/assets/images/icon-account.svg">
-          <img src="/static/assets/images/icon-account-active.svg" class="active">
-        </span>
-                <div id="account-mobile"><span data-reactroot="" class="">我的帐户</span></div>
-            </a>
-        </li>
-
-        <li class="menu" id="menu-mobile">
-            <a href="/menu">
-        <span class="icons">
-          <img src="/static/assets/images/icon-menu.svg">
-          <img src="/static/assets/images/icon-menu-active.svg" class="active">
-        </span>
-                <div>菜单</div>
-            </a>
-        </li>
-
-        <li class="more" id="more-mobile">
-            <a class="icon trigger" rel="nav-overlay">
-        <span class="icons">
-          <img src="/static/assets/images/icon-more.svg">
-          <img src="/static/assets/images/icon-more-active.svg" class="active">
-        </span>
-                <div>更多</div>
-            </a>
-        </li>
-    </ul>
-</div>
-
-
-
-<!-- Javascript -->
-<!--[if lt IE 9]>
-<script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
-<script>
-    var PAGE_LANG = 'zh';
-    var PAGE_TITLE = '用每一杯咖啡传递星巴克独特的咖啡体验';
-    var PAGE_URL = '/';
-    var SEARCH_EMPTY = '未找到结果，猜你喜欢';
-    var SEARCH_POPULAR = '大家都在搜';
-    var SURVEY_URL = 'https://api.splashform.com/api';
-</script>
-<script type="text/javascript" src="/static/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/static/assets/js/polyfill.min.js"></script>
-<script type="text/javascript" src="/static/assets/js/fastclick.js"></script>
-<script type="text/javascript" src="/static/assets/js/scripts.js"></script>
-<script type="text/javascript" src="/static/assets/js/tracker.js"></script>
-<script type="text/javascript" src="/static/assets/js/common.bundle.js"></script>
-<script type="text/javascript" src="/static/assets/js/vendor.bundle.js"></script>
-<script type="text/javascript" src="/static/assets/js/pages.bundle.js"></script>
-
-
-<script type="text/javascript" src="/static/assets/js/slick.min.js"></script>
-<script type="text/javascript" src="/static/assets/js/home.js"></script>
-
-
-<script type="text/javascript" src="/static/assets/js/jweixin-1.2.0.js"></script>
-<script type="text/javascript" src="/static/assets/js/wechat.v201803141700.js"></script>
 
 
 </body>

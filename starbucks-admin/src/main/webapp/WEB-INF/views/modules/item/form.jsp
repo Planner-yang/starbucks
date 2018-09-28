@@ -90,7 +90,7 @@
                                     <form:input cssClass="form-control" path="image" readonly="true"/>
                                 </div>
                                 <div class="form-group">
-                                    <label>商品状态</label>
+                                    <label>商品状态(1-正常，2-下架，3-删除)</label>
                                     <form:input cssClass="form-control required" path="status" placeholder="请输入商品状态"/>
                                 </div>
                             </div>

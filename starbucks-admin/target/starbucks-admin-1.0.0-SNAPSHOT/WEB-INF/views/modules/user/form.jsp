@@ -21,7 +21,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                ${empty tbUser.id? '增加':'编辑'}用户
+                ${tbUser.id == 0 || tbUser.id == null? '增加':'编辑'}用户
             </h1>
             <ol class="breadcrumb">
                 <li><a href="/main"><i class="fa fa-dashboard"></i>首页</a></li>
@@ -64,6 +64,10 @@
                                 <div class="form-group">
                                     <label >手机</label>
                                     <form:input cssClass="form-control required mobile" path="phone" placeholder="请输入手机号码"/>
+                                </div>
+                                <div class="form-group">
+                                    <label >角色(1-管理员, 0-客户)</label>
+                                    <form:input cssClass="form-control required" path="role" placeholder="请输入1或0"/>
                                 </div>
                             </div>
                             <div class="box-footer">

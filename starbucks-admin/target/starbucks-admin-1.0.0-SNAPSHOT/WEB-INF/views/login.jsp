@@ -40,7 +40,7 @@
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="/login"><b>MyShop-我的后台</b></a>
+        <a href="/login"><b>星巴克-我的后台</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
@@ -49,7 +49,7 @@
         <c:if test="${message != null}">
             <div class="alert alert-danger alert-dismissible">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                用户名或密码错误
+                用户名或密码错误, 并用管理员帐号登录
             </div>
         </c:if>
 

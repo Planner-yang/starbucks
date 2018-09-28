@@ -1,48 +1,10 @@
-/* Layout */
-/* Fonts */
-/* Colors */
-/* Sizes */
-/* Misc */
-/* Partials */
-/* ==========================================================================
-   Normalize.scss settings
-   ========================================================================== */
-/**
- * Includes legacy browser support IE6/7
- *
- * Set to false if you want to drop support for IE6 and IE7
- */
-/* Base
-   ========================================================================== */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
- *  `em` units.
- */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-/**
- * Remove default margin.
- */
+ }
 body {
   margin: 0; }
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
 article,
 aside,
 details,
@@ -58,95 +20,43 @@ section,
 summary {
   display: block; }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Prevents modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+  vertical-align: baseline;  }
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
- */
 [hidden],
 template {
   display: none; }
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
 a {
   background-color: transparent; }
 
-/**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
 a:active, a:hover {
   outline: 0; }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
 b,
 strong {
   font-weight: bold; }
 
-/**
- * Address styling not present in Safari and Chrome.
- */
 dfn {
   font-style: italic; }
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
-
-/**
- * Addresses styling not present in IE 8/9.
- */
 mark {
   background: #ff0;
   color: #000; }
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
 small {
   font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
 sub,
 sup {
   font-size: 75%;
@@ -160,228 +70,104 @@ sup {
 sub {
   bottom: -0.25em; }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * 1. Remove border when inside `a` element in IE 8/9/10.
- * 2. Improves image quality when scaled in IE 7.
- */
 img {
   border: 0; }
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
 svg:not(:root) {
   overflow: hidden; }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
 figure {
   margin: 1em 40px; }
 
-/**
- * Address differences between Firefox and other browsers.
- */
 hr {
   box-sizing: content-box;
   height: 0; }
 
-/**
- * Contain overflow in all browsers.
- */
 pre {
   overflow: auto; }
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
- */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em; }
-
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *  Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- * 4. Improves appearance and consistency in all browsers.
- */
 button,
 input,
 optgroup,
 select,
 textarea {
   color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
+  font: inherit;
+
+  margin: 0;
+}
+
 button {
   overflow: visible; }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
 button,
 select {
   text-transform: none; }
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *  and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *  `input` and others.
- * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
- *  Known issue: inner spacing remains in IE 6.
- */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
   cursor: pointer;
-  /* 3 */ }
-
-/**
- * Re-set default cursor for disabled elements.
- */
+}
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
 input {
   line-height: normal; }
-
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- *  Known issue: excess padding remains in IE 6.
- */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+  padding: 0; }
 
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
 input[type="search"] {
   -webkit-appearance: textfield;
-  /* 1 */
-  box-sizing: content-box;
-  /* 2 */ }
 
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
+  box-sizing: content-box; }
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/**
- * Define consistent border, margin, and padding.
- */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- * 3. Corrects text not wrapping in Firefox 3.
- * 4. Corrects alignment displayed oddly in IE 6/7.
- */
 legend {
   border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+  padding: 0;  }
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
 textarea {
   overflow: auto; }
 
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
 optgroup {
   font-weight: bold; }
 
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-td,
+td
 th {
   padding: 0; }
-
-/*** VARIABLES (colors, layout, spacing & typography) ***/
-/* Colors from http://clrs.cc/ */
-/* Sizes */
-/* Fonts */
-/* Misc */
-/* Responsive */
-/* Partials */
-/*** MIXINS & PARTIALS ***/
 @media (max-width: 640px) {
   html {
     font-size: 57%; } }
@@ -471,11 +257,10 @@ blockquote {
   padding-left: 24px; }
   blockquote > *:last-child {
     margin-bottom: 0; }
-
+/*
 img {
   max-width: 100%; }
-
-/* Code */
+*/
 code,
 .code {
   background: #EEE;
@@ -494,7 +279,6 @@ pre .code {
   padding: 6px 12px;
   white-space: pre-wrap; }
 
-/* Tables */
 table {
   border: 1px solid rgba(0, 0, 0, 0.12);
   margin: 0 0 24px;
@@ -521,7 +305,6 @@ table {
     transition-property: border;
     transition-duration: 0.1s; }
 
-/* Slider */
 .slick-slider {
   position: relative;
   display: block;
@@ -593,9 +376,20 @@ table {
 
 .slick-arrow.slick-hidden {
   display: none; }
+@font-face {
+  font-family: "Gotham";
 
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Gotham";
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: "Gotham";
 
-/*** CUSTOM ***/
+  font-weight: 400;
+  font-style: normal; }
 @keyframes pop {
   0% {
     transform: scale(0.1); }
@@ -663,6 +457,7 @@ table {
   100% {
     opacity: 0.4;
     transform: scale(1); } }
+
 body {
   color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
@@ -681,7 +476,6 @@ strong {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: 700;
-  letter-spacing: 1;
   text-transform: uppercase; }
 
 body,
@@ -1052,7 +846,6 @@ figure {
     margin-bottom: 0;
     padding-right: 30px; }
   .collapsible .header:before {
-    background: url(/static/assets/images/icon-chevron-down.svg) no-repeat center center;
     content: '';
     float: right;
     height: 24px;
@@ -1082,6 +875,7 @@ figure {
     transition-property: opacity;
     width: 100%;
     display: none; }
+
 .collapsible.collapsed .body {
   max-height: 0; }
 .collapsible.collapsed.teasing .body {
@@ -1270,10 +1064,6 @@ table {
 .message {
   background: no-repeat left center;
   padding-left: 27px; }
-  .message.ok {
-    background-image: url(./icons/icon-checked-green.svg); }
-  .message.error {
-    background-image: url(./icons/icon-cross-red.svg); }
 
 footer.account .sign-in {
   float: left;
@@ -1435,8 +1225,7 @@ footer.account .sign-in {
   color: #FFF;
   display: none;
   margin-left: 30%;
-  font-size: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif-1px;
-  font-size: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif-1/10rem;
+
   padding: 6px 36px 6px 12px;
   position: relative;
   z-index: 1000; }
@@ -1446,6 +1235,7 @@ footer.account .sign-in {
       font-size: 14px;
       font-size: 1.4rem;
       line-height: 140%; } }
+
   .notice a {
     color: #FFF;
     display: inline-block;
@@ -1553,7 +1343,6 @@ footer.account .sign-in {
   float: left; }
   .lang-en .msr-card .header .link.trigger {
     float: right;
-    max-width: auto;
     width: auto; }
 
 .unlogged-in-element {
@@ -1612,23 +1401,18 @@ footer.account .sign-in {
     font-size: 1.2rem;
     line-height: 160%; }
   .field .message {
-    background: url(/static/assets/images/icon-cross-red.svg) no-repeat left center;
     padding-left: 27px; }
   .field.error input,
   .field.error input:hover,
   .field.error input:active,
   .field.error input:focus {
     border-color: #e75b52; }
-  .field.error .message {
-    background-image: url(/static/assets/images/icon-cross-red.svg); }
   .field.ok input {
     border-color: rgba(0, 0, 0, 0.12); }
   .field.ok input:hover,
   .field.ok input:active,
   .field.ok input:focus {
     border-color: #00A862; }
-  .field.ok .message {
-    background-image: url(/static/assets/images/icon-checked-green.svg); }
   .field.valid input {
     border-color: #00A862; }
   .field.floating label {
@@ -1711,7 +1495,6 @@ footer.account .sign-in {
         animation-name: ripple2;
         -ms-animation-name: ripple2;
         -webkit-animation-name: ripple2;
-        /* Safari 4.0 - 8.0 */
         -ms-animation-duration: 0.3s;
         -webkit-animation-duration: 0.3s;
         animation-duration: 0.3s; }
@@ -1749,7 +1532,6 @@ footer.account .sign-in {
       width: 30px; }
     .field.checkbox label:after {
       border-radius: 7px;
-      background: #00A862 url(/static/assets/images/icon-checked.svg) no-repeat center center;
       position: absolute;
       opacity: 0;
       height: 30px;
@@ -1758,9 +1540,7 @@ footer.account .sign-in {
       top: -3px;
       width: 30px;
       -ms-transform: scale(0);
-      /* IE 9 */
       -webkit-transform: scale(0);
-      /* Safari */
       transform: scale(0); }
   .field.radios {
     display: inline-block;
@@ -1831,9 +1611,7 @@ footer.account .sign-in {
       top: 0;
       width: 24px;
       -ms-transform: scale(0);
-      /* IE 9 */
       -webkit-transform: scale(0);
-      /* Safari */
       transform: scale(0); }
   .field.info input[type=email],
   .field.info input[type=password],
@@ -2183,7 +1961,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     padding-right: 24px; }
   .select:after {
-    background: url(/static/assets/images/icon-chevron-down.svg) no-repeat center center;
+
     bottom: 4px;
     content: '';
     cursor: pointer;
@@ -2218,7 +1996,6 @@ input::-webkit-inner-spin-button {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-/* Standard syntax */
 @keyframes ripple2 {
   0% {
     opacity: 0;
@@ -2235,7 +2012,6 @@ input::-webkit-inner-spin-button {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-/* ie hack */
 input::-ms-clear {
   display: none; }
 
@@ -2292,8 +2068,6 @@ select::-ms-expand {
     #nav .icon.trigger {
       height: auto; }
     #nav .icon.trigger {
-      -webkit-box-sizing: box-sizing;
-      box-sizing: box-sizing;
       margin: 0px; }
   #nav .container {
     overflow: hidden; }
@@ -2515,7 +2289,9 @@ select::-ms-expand {
 @media (min-width: 1025px) {
   #nav > .container {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    float: left;
+    }
     #nav > .container > * {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
@@ -2638,7 +2414,6 @@ body.lang-zh #nav .container .primary ul a {
       -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
       background: #fff;
-      display: box;
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -2652,8 +2427,7 @@ body.lang-zh #nav .container .primary ul a {
       -webkit-transform: translate3d(0, 0, 0);
       -webkit-transform: translateZ(0);
       -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -webkit-perspective: 1000; } }
+      backface-visibility: hidden;  } }
     @media only screen and (max-width: 640px) and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
       .primary-mobile ul {
         padding-bottom: 15px; } }
@@ -2732,6 +2506,7 @@ body.lang-zh #nav .container .primary ul a {
     top: -4px;
     position: absolute;
     width: 8px; }
+
 
 .primary-mobile .badge-dot {
   position: initial; }
@@ -3068,7 +2843,6 @@ body.lang-zh #nav .container .primary ul a {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     text-align: right; }
   .box .close {
-    background: url(/static/assets/images/icon-close.svg) no-repeat center center;
     color: transparent;
     display: block;
     float: right;
@@ -3121,7 +2895,7 @@ body.lang-zh #nav .container .primary ul a {
         .box.column .close {
           top: 12px;
           right: 12px;
-          background: url(/static/assets/images/icon-close-white.svg) no-repeat center center; } }
+          } }
     @media (max-width: 640px) {
       .box.column .grid {
         padding-top: 240px; } }
@@ -3252,7 +3026,7 @@ body.lang-zh #nav .container .primary ul a {
       min-height: 96px;
       width: 22%; }
     .card.news .preview.empty {
-      background-image: url("/static/assets/images/logo.svg");
+      background-image: url("../images/logo.svg");
       background-repeat: no-repeat;
       background-size: 70%;
       opacity: 0.1; }
@@ -3700,12 +3474,10 @@ a.card {
   .dialog .dialog-scroller {
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: normal;
     box-orient: vertical;
     box-direction: normal;
     -webkit-flex-direction: column;
@@ -3718,7 +3490,6 @@ a.card {
     -ms-justify-content: space-around;
     -o-justify-content: space-around;
     justify-content: space-around;
-    -ms-flex-pack: distribute;
     overflow-y: auto;
     bottom: 0;
     left: 0;
@@ -3745,7 +3516,6 @@ a.card {
     transition-property: opacity, transform;
     width: 94%; }
     .dialog .dialog-box .close {
-      background: url(./icons/icon-close.svg) no-repeat center center;
       color: transparent;
       display: block;
       float: right;
@@ -3795,7 +3565,6 @@ a.card {
   transform: translate3d(-50%, 100%, 0);
   transition-duration: 0.4s;
   transition-property: opacity, transform, visibility;
-  visibility: none;
   z-index: 9999; }
   .snackbar::after {
     clear: both;
@@ -3843,7 +3612,6 @@ a.card {
     color: inherit; }
 
 .flex {
-  display: box;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -4108,7 +3876,7 @@ section.hero {
     display: block;
     width: 16px;
     height: 16px;
-    background: url("/static/assets/images/icon-back-to-top.svg") no-repeat center; }
+    }
 
 .ShareButtons {
   margin-top: 20px;
@@ -4119,9 +3887,9 @@ section.hero {
   height: 30px;
   border: none; }
   .ShareButton--wechat {
-    background: url("/static/assets/images/wechat.svg") no-repeat center; }
+     }
   .ShareButton--weibo {
-    background: url("/static/assets/images/weibo.svg") no-repeat center; }
+    }
   .ShareButton + .ShareButton {
     margin-left: 24px; }
 
@@ -4165,7 +3933,6 @@ body.page-about #content {
   body.page-about #content .tablet-flex1 {
     padding: 12px; }
   body.page-about #content .logo {
-    background-image: url(/static/assets/images/logo.svg);
     background-size: cover;
     height: 96px;
     opacity: 0.2;
@@ -4310,7 +4077,6 @@ body.page-about-contact #content .image:before {
       filter: grayscale(100%);
       opacity: 0.6;
       transition-duration: 0.1s;
-      transition-duration: filter, opacity;
       margin-right: 1px; }
     .msr-card .controls a:hover,
     .msr-card .controls button:hover,
@@ -4411,7 +4177,7 @@ body.page-about-contact #content .image:before {
         color: #FFF;
         background-color: #C2A661; }
     .svc-card .preview .locked {
-      background: rgba(255, 255, 255, 0.95) url(/static/assets/images/icon-locked-svc.svg) no-repeat center center;
+
       border-radius: 10px;
       height: 100%;
       left: 0;
@@ -4422,8 +4188,6 @@ body.page-about-contact #content .image:before {
       .svc-card .preview .locked img {
         display: none; }
   @media (max-width: 640px) {
-    .svc-card {
-      min-height: auto; }
       .svc-card .control {
         width: 100%;
         text-align: center; } }
@@ -4587,7 +4351,7 @@ body.page-about-contact #content .image:before {
     .box.svc .scroll-wrapper .scroll .svc-card, .box.my-rewards .scroll-wrapper .scroll .svc-card {
       padding: 0px;
       margin: 0 24px 24px 0;
-      min-height: auto; }
+        }
       .box.svc .scroll-wrapper .scroll .svc-card .preview, .box.my-rewards .scroll-wrapper .scroll .svc-card .preview {
         min-height: 125px;
         min-width: 200px; }
@@ -4709,7 +4473,6 @@ body.page-about-contact #content .image:before {
         margin-bottom: 10px; }
 
 .account-welcome-msr {
-  background-image: url("/static/assets/images/bg-msr-unlogged.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 4px solid #C2A661; }
@@ -4842,7 +4605,7 @@ body.page-help #content {
   body.page-help #content .hero .hidden {
     display: none; }
   body.page-help #content .image {
-    background-image: url(/static/assets/images/help-center-page-image.png);
+
     background-position: 50% 50%;
     background-size: cover;
     height: 100%;
@@ -5011,7 +4774,8 @@ body.type-products #content {
   body.type-products #content .grades .gauge {
     margin-top: 6px; }
     body.type-products #content .grades .gauge .fill {
-      background-image: url(/static/assets/images/menu-bg-apron.png); }
+
+       }
       body.type-products #content .grades .gauge .fill.mouthfeel-medium, body.type-products #content .grades .gauge .fill.acidity-high {
         background: linear-gradient(to right, #008f53, #00A862); }
       body.type-products #content .grades .gauge .fill.roast-blonde {
@@ -5040,8 +4804,6 @@ body.page-about-contact #content .card .caption {
 
 body.page-stores {
   background: #FFF; }
-  body.page-stores #nav-overlay {
-    min-width: auto; }
   body.page-stores h2 {
     color: rgba(0, 0, 0, 0.87);
     font-weight: bold; }
@@ -5078,7 +4840,7 @@ body.page-stores {
         height: 45%; } }
     @media (max-width: 640px) {
       body.page-stores #content #map {
-        /*bottom: 60%; //top: 0;*/ } }
+        } }
     body.page-stores #content #map .amap-icon img[src="/assets/icons/icon-map-dot.svg"] {
       -webkit-filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5));
       filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5)); }
@@ -5175,8 +4937,6 @@ body.page-stores {
     @media (min-width: 1025px) {
       body.page-stores #nav > .container .body {
         display: block;
-        /* let upside header nav expand*/
-        /* top: $space*4;*/
         height: auto;
         min-height: 280px;
         max-height: calc(100% - 90px);
@@ -5318,7 +5078,6 @@ body.page-stores {
     body.page-stores #nav > .container .body .empty {
       color: rgba(0, 0, 0, 0.38); }
   body.page-stores #nav #overlay-locator-filters {
-    min-width: auto;
     overflow-x: hidden; }
     @media (min-width: 1025px) {
       body.page-stores #nav #overlay-locator-filters {
@@ -5399,13 +5158,13 @@ body.page-stores {
           background: rgba(0, 0, 0, 0.05);
           opacity: 1; }
         body.page-stores #nav #overlay-locator-filters > .container > .body a:after {
-          background: url(/static/assets/images/icon-checked-green.svg) no-repeat center center;
+
+
           content: '';
           height: 24px;
           opacity: 0;
           position: absolute;
           right: 6px;
-          /*top: $space/1.5;*/
           margin-top: -12px;
           -webkit-transform: translate(-50%, -50%) scale(0.6);
           transform: translate(-50%, -50%) scale(0.6);
@@ -5417,7 +5176,6 @@ body.page-stores {
           transition-property: opacity, transform, -webkit-transform;
           width: 24px; }
         body.page-stores #nav #overlay-locator-filters > .container > .body a.active {
-          /* background: $black-7;*/
           opacity: 1; }
           body.page-stores #nav #overlay-locator-filters > .container > .body a.active:after {
             margin-top: -12px;
@@ -5425,7 +5183,6 @@ body.page-stores {
             -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1); }
   body.page-stores #nav #overlay-locator-details {
-    min-width: auto;
     overflow-x: hidden; }
     @media (min-width: 1025px) {
       body.page-stores #nav #overlay-locator-details {
@@ -5569,7 +5326,8 @@ body.page-stores {
     display: inline-block;
     width: 14px;
     height: 18px;
-    background: url(/static/assets/images/icon-locator-green.svg) no-repeat center/contain; }
+
+  }
   .LocationFilterSwitch span {
     display: inline-block;
     overflow: hidden;
@@ -5589,7 +5347,8 @@ body.page-stores {
     display: inline-block;
     width: 10px;
     height: 8px;
-    background: url(/static/assets/images/icon-locator-arrow.svg) no-repeat center/contain; }
+
+     }
 
 .LocationFilterPanel {
   position: absolute;
@@ -5735,16 +5494,7 @@ body.page-stores {
       height: 32px;
       vertical-align: top;
       width: 32px; }
-    .page-apple-watch section .grid-container .icons .icon1 {
-      background: url(/static/assets/images/icon1.png) no-repeat;
-      background-size: contain; }
-    .page-apple-watch section .grid-container .icons .icon2 {
-      background: url(/static/assets/images/icon2.png) no-repeat;
-      background-size: contain;
-      background-position-y: -3px; }
-    .page-apple-watch section .grid-container .icons .icon3 {
-      background: url(/static/assets/images/icon3.png) no-repeat;
-      background-size: contain; }
+
     .page-apple-watch section .grid-container .image-box {
       padding: 0 0 0 12px;
       box-sizing: border-box; }
@@ -5771,10 +5521,8 @@ body.page-stores {
       height: 64px;
       margin: 0 auto;
       background-size: cover; }
-    .page-apple-watch .hero .udp-apple-app-download-zh {
-      background: url(/static/assets/images/udp-ios-cn.svg) no-repeat center center; }
-    .page-apple-watch .hero .udp-apple-app-download-en {
-      background: url(/static/assets/images/udp-ios-en.svg) no-repeat center center; }
+
+
     .page-apple-watch .hero img {
       display: block;
       margin: 24px auto 0 auto;
@@ -5783,7 +5531,8 @@ body.page-stores {
   .page-apple-watch .app-intro p {
     margin: 60px auto -24px auto;
     padding-bottom: 84px;
-    background: url("/static/assets/images/apple-watch-intro-bg.png") no-repeat;
+
+
     background-size: auto 140px;
     background-position: 95% 100%; }
 
@@ -5833,7 +5582,8 @@ body.page-stores {
       width: 100%;
       height: 100%;
       left: 0px;
-      background: url(/static/assets/images/starbuck-mobile-background-top.jpg) no-repeat;
+
+
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -5841,7 +5591,8 @@ body.page-stores {
     @media (max-width: 640px) {
       .page-apps #content .bg-gradient-green .starbucks-mobile-top-bg {
         height: calc(100% - 271px);
-        background: url(/static/assets/images/starbuck-mobile-background-mobile.jpg) no-repeat;
+
+
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; } }
@@ -5877,13 +5628,11 @@ body.page-stores {
     .page-apps #content .before-star {
       height: 60px; } }
   .page-apps #content .before-star::before {
-    content: url(/static/assets/images/apps-mobile-star.svg);
     margin-right: 12px; }
   .page-apps #content .carousel .slick-prev,
   .page-apps #content .carousel .slick-next {
     display: block !important;
     border: 0;
-    background: url("/static/assets/images/icon-arrow.svg") transparent no-repeat center center;
     content: '';
     font-size: 0;
     height: 48px;
@@ -5993,7 +5742,6 @@ body.page-stores {
   .page-apps #content .starbucks-mobile-carousel {
     max-width: 890px;
     margin: 0 auto;
-    background-image: url(/static/assets/images/apps-mobile-circle.svg);
     background-repeat: no-repeat;
     background-position: 50% calc(100% - 100px);
     background-size: contain;
@@ -6175,7 +5923,6 @@ body.page-stores {
     @media (max-width: 1024px) {
       .account_app .profile_index ul li a {
         padding: 24px 84px 24px 24px;
-        background: url(/static/assets/images/icon-right-arrow-gray.svg) no-repeat calc(100% - 24px) center;
         background-size: 10px; }
         .account_app .profile_index ul li a img {
           right: 48px; } }
@@ -6469,7 +6216,7 @@ body.page-stores {
       vertical-align: middle;
       margin: 0 5px;
       color: #858585;
-      font-size: 14; }
+      }
     .account_app .profile_address_book .card header a.default {
       font-size: 15px;
       color: #C2A661; }
@@ -6603,8 +6350,7 @@ body.page-stores {
       margin-top: 24px;
       font-size: 12px; }
     .account_app .msr-card-add-wrapper .msr-card-add-layout .msr-card-add-container .msr-card-add-reminder {
-      font-size: regular-1px;
-      font-size: regular-1/10rem; }
+       }
       .account_app .msr-card-add-wrapper .msr-card-add-layout .msr-card-add-container .msr-card-add-reminder p {
         margin-bottom: 24px; }
 .account_app .svc-card-add-wrapper {
@@ -6827,7 +6573,7 @@ body.page-stores {
     .page-menu .featured-items .featured-collapsible {
       cursor: pointer; }
       .page-menu .featured-items .featured-collapsible .icon {
-        background: url(/static/assets/images/icon-chevron-down.svg) no-repeat center center;
+
         content: '';
         float: right;
         height: 24px;
@@ -6929,7 +6675,6 @@ body.page-stores {
   .page-menu .also {
     padding: 24px 0; }
     .page-menu .also .rect {
-      width: calc(((100% - 48px)) / 3);
       margin-right: 3%; }
       @media (max-width: 640px) {
         .page-menu .also .rect {
@@ -6985,7 +6730,6 @@ body.page-about-careers {
       padding-bottom: 24px; }
     body.page-about-careers #content .image {
       bottom: 0;
-      background-image: url(/static/assets/images/careers-bg-line.svg);
       background-position: 50% 50%;
       background-size: cover;
       height: 100%;
@@ -7002,7 +6746,6 @@ body.page-about-careers {
       width: 100%; }
       @media (max-width: 1024px) {
         body.page-about-careers #content .card.thumbnail.rect {
-          min-height: auto;
           max-width: 100%; } }
       body.page-about-careers #content .card.thumbnail.rect .preview {
         max-height: 144px; }
@@ -7012,7 +6755,6 @@ body.page-about-careers {
         margin-left: auto;
         margin-right: auto; }
     body.page-about-careers #content .cup {
-      background-image: url(/static/assets/images/careers-cup.png);
       background-size: cover;
       height: 72px;
       width: 70%; }
@@ -7031,19 +6773,6 @@ body.page-about-careers {
     body.page-about-careers #content .bg-icon-scu {
       background-position: right bottom;
       background-repeat: no-repeat; }
-    body.page-about-careers #content .bg-icon-stars {
-      background-image: url(/static/assets/images/careers-icon-stars.svg); }
-    body.page-about-careers #content .bg-icon-apron {
-      background-image: url(/static/assets/images/careers-icon-apron.png); }
-    body.page-about-careers #content .bg-icon-scu {
-      background-image: url(/static/assets/images/careers-icon-scu.png); }
-    body.page-about-careers #content .promote {
-      background-image: url(/static/assets/images/careers-bg-black.png);
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 288px;
-      width: 100%; }
     body.page-about-careers #content .qrcode {
       border: 12px solid #000;
       background-size: cover;
@@ -7185,7 +6914,7 @@ body.page-about-careers {
 .page-front .carousel-home .slick-next {
   background-size: contain;
   border: 0;
-  background: url("/static/assets/images/icon-arrow-white.svg") transparent no-repeat center center;
+
   content: '';
   font-size: 0;
   height: 48px;
@@ -7468,7 +7197,8 @@ body.page-about-careers {
   padding-bottom: 12px; }
 .page-account-program-svc .caption.icon::before,
 .page-starbucks-gift-card .caption.icon::before {
-  content: url(/static/assets/images/svc-icon.svg);
+
+
   height: 100%;
   margin-right: 12px; }
 .page-account-program-svc img.cards,
@@ -7510,7 +7240,7 @@ body.page-about-careers {
   position: absolute;
   height: 84px;
   width: 100%;
-  background-image: url(/static/assets/images/svc-wave.svg?);
+
   background-repeat: repeat-x;
   top: -24px;
   z-index: 1; }
@@ -7616,7 +7346,6 @@ body.page-about-careers {
 @media (min-width: 1025px) {
   .page-account-program-svc .gift-card-list ul,
   .page-starbucks-gift-card .gift-card-list ul {
-    display: box;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -7801,7 +7530,7 @@ body.page-about-careers {
           .page-account-program-msr .levels .level-info > div > div .flex > div ul li:before,
           .page-my-starbucks-rewards .levels .level-info > div > div .flex > div ul li:before,
           .page-account-my-starbucks-rewards .levels .level-info > div > div .flex > div ul li:before {
-            background: url("/static/assets/images/icon-star-dark.svg") no-repeat center center;
+
             content: '';
             height: 24px;
             left: -24px;
@@ -7949,7 +7678,7 @@ body.page-about-careers {
       margin-bottom: 24px; }
   .page-starbucks-reserve .hero .image {
     left: 0;
-    background: url(/static/assets/images/hero.jpg);
+
     background-position: 50% 50%;
     background-size: cover;
     height: 100%;
@@ -7963,7 +7692,6 @@ body.page-about-careers {
       position: absolute;
       width: 100%; }
 .page-starbucks-reserve .seelist {
-  background: url(/static/assets/images/map.jpg);
   background-position: 50% 50%;
   background-size: cover;
   padding: 48px 0; }
@@ -8089,10 +7817,9 @@ body.type-articles #content .hero.space {
       position: absolute;
       z-index: 500; }
       .join-form .login-form .form-field .toggle-password.show {
-        background: url("/static/assets/images/icon-show-password.svg") no-repeat;
         background-size: contain; }
       .join-form .login-form .form-field .toggle-password.hide {
-        background: url("/static/assets/images/icon-hide-password.svg") no-repeat;
+
         background-size: contain; }
   .join-form .login-form .sign-in-forgot-password {
     font-weight: normal; }
@@ -8381,8 +8108,6 @@ body.type-articles #content .hero.space {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between; }
-
-/* Slider */
 .slick-slider {
   position: relative;
   display: block;
@@ -8462,7 +8187,7 @@ body.type-articles #content .hero.space {
     .page-404 #content .min-h100vh, .page-maintenance #content .min-h100vh {
       min-height: 100vh; } }
   .page-404 #content .logo, .page-maintenance #content .logo {
-    background-image: url(/static/assets/images/logo.svg);
+
     background-size: cover;
     height: 216px;
     opacity: 0.2;
@@ -8495,7 +8220,7 @@ body.type-articles #content .hero.space {
       font-size: 16px;
       font-size: 1.6rem; } }
 .page-menu-food-dragon-dumpling #content {
-  background: url("/static/assets/images/dd-bg.jpg") repeat-y center center;
+
   background-color: #eeeef0;
   background-size: contain; }
   .page-menu-food-dragon-dumpling #content .headline {
@@ -8732,9 +8457,6 @@ body.image-campaign #content {
   body.image-campaign #content img, body.image-campaign #content video {
     display: block;
     width: 100%; }
-
-body.page-menu-beverages-teavana #content {
-  background: url(/static/assets/images/bg.jpg) 0 0 repeat; }
   body.page-menu-beverages-teavana #content .banner {
     padding-top: 40%; }
     @media (max-width: 640px) {
@@ -8927,7 +8649,7 @@ body.page-menu-beverages-teavana #content {
         display: inline-block;
         width: 14px;
         height: 18px;
-        background: url(/static/assets/images/icon-locator-green.svg) no-repeat center/contain; }
+        }
       .delivery-stores .loc-filter .selector span {
         display: inline-block;
         overflow: hidden;
@@ -8947,7 +8669,7 @@ body.page-menu-beverages-teavana #content {
         display: inline-block;
         width: 10px;
         height: 8px;
-        background: url(/static/assets/images/icon-locator-arrow.svg) no-repeat center/contain; }
+        }
     .delivery-stores .loc-filter .options {
       opacity: 0;
       transform: translateY(10px);
@@ -9081,8 +8803,6 @@ body.page-menu-beverages-teavana #content {
           width: 70%; } }
     .delivery-stores .stores .detail p {
       margin: 0; }
-
-/*** BROWSER HACKS (for more see http://browserhacks.com/) ***/
 @media (max-width: 640px) {
   body.chrome {
     padding-bottom: 0px; }
@@ -9111,3 +8831,4 @@ body.page-menu-beverages-teavana #content {
       body.chrome.page-stores #app-view-wrapper {
         position: initial;
         -webkit-overflow-scrolling: auto; } }
+

@@ -53,5 +53,19 @@
                 </ul>
             </li>
         </ul>
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="active treeview">
+                <a href="#">
+                    <i class="fa fa-book"></i> <span>地址管理</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a href="#"><i class="fa fa-table"></i>地址列表</a></li>
+                    <li><a href="#"><i class="fa fa-bars"></i>添加地址</a></li>
+                </ul>
+            </li>
+        </ul>
     </section>
 </aside>

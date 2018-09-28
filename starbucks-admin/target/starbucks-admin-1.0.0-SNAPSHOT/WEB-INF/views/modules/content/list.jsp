@@ -77,7 +77,6 @@
                                     </th>
                                     <th>所属分类</th>
                                     <th>内容标题</th>
-                                    <th>子标题</th>
                                     <th>修改时间</th>
                                     <th>操作</th>
                                 </tr>
@@ -112,7 +111,6 @@
             }},
             { "data": "tbContentCategory.name" },
             { "data": "title" },
-            { "data": "subTitle" },
             { "data": function (row, type, val, meta) {
                 return DateTime.format(new Date(row.updated),"yyyy-MM-dd HH:mm:ss");
             } },

@@ -1,0 +1,120 @@
+$(document).ready(function() {
+  var $helpSearchInput = $('#help-search-input');
+  var $helpSearchResults = $('#help-search-results');
+  var $topFAQsList = $('#topFAQs-list');
+
+  var topFAQs = {
+    title: '常见问题解答',
+    footnote: '您可以登陆<a href="https://www.starbucks.com.cn/help/">帮助中心</a>，查阅更多常见问题解答。',
+    list: [
+      {
+        title: '如果我的实体星享卡丢失了，我该怎么办？',
+        content: '<p>如果您丢失的星享卡已经注册或已经关联到既有星享俱乐部帐户，那么请访问<a href="https://www.starbucks.com.cn/account/">www.starbucks.com.cn/account/</a>登录您的帐户，按照网站上的指引完成报失申请即可。如您符合补办要求（详情请见<a href="https://www.starbucks.com.cn/help/terms/msr/">星享俱乐部条款和条件</a>），我们将为您补办一张实体星享卡并邮寄给您。</p><p>小贴士：请确保您在注册时输入的是您正确的邮寄地址或及时更新您帐户中的邮寄地址，否则您可能无法收到补办的星享卡。</p>',
+      },
+      {
+        title: '星享俱乐部帐户中的电子好礼券会过期吗？',
+        content: '<p>您星享俱乐部帐户的每张好礼券都有使用期限。除生日和周年庆好礼为当月有效外，其他好礼的使用有效期通常为90天（月饼好礼等星巴克不定期提供的特殊好礼的使用期限会另行通知)。请登录帐户及时查询好礼的使用期限。如有疑问请致电我们的客服热线<a href="tel:400-820-6998">400-820-6998.</a>寻求帮助。</p>',
+      },
+      {
+        title: '如何更改我的星享俱乐部帐户中的“活跃卡”？',
+        content: '<p>如果您的星享俱乐部帐户中关联了多张星享卡，您可以通过访问<a href="https://www.starbucks.com.cn/account/">www.starbucks.com.cn/account/</a>网站或在星巴克APP上，登录您的星享俱乐部帐户然后更改“活跃卡”的选择。您的更改指令通常在24小时内生效（由于系统处理需要一定的时间，请注意您的更改指令并非即时生效）。请注意在同一时间您仅可以选择一张星享卡作为您帐户中可以正常使用的“活跃卡”，您帐户下其余的星享卡将自动成为“休眠卡”，无法同时使用。</p>',
+      },
+      {
+        title: '星星有什么用？',
+        content: '<p>在您成功注册星享俱乐部帐户后，您可以通过在星巴克门店消费来累积星星，当星星累积达到一定的数量时，您将从银星级会员升级为玉星级会员或者从玉星级会员升级为金星级会员，并且可以享受该等级所对应的会员礼遇。</p>',
+      },
+      {
+        title: '免费赠与的星星会过期吗？',
+        content: '<p>您的星享俱乐部帐户内免费赠与的星星，将在这个帐户的每个周年日期满失效，并且星星数量将被自动清零。</p>',
+      },
+      {
+        title: '为什么我通过星巴克APP登录我的星享俱乐部帐户之后，却看不到我帐户中的动态二维码？',
+        content: '<p>请您先检查是否已将星巴克移动应用（APP）更新至最新版本。如果您所使用的星巴克APP已是最新版本，请检查您的手机是否已接入移动或无线局域网络。当您的手机尚未接入移动或无线局域网络时，星巴克APP是无法呈现您星享俱乐部帐户中的动态二维码的。</p>',
+      },
+      {
+        title: '升级为“金星级”会员后，要多久才能收到我的专属金卡？',
+        content: '<p>您首次升级成为“金星级”会员后的6至8周内能收到您的专属金卡。请注意，专属金卡是一种星享卡，而非星礼卡，不具备储值与支付功能。当您升级成为“金星级”会员的即刻起，您便可以开始享用相应的“金星级”好礼，即在您尚未收到实体金卡前，您使用您当前的星享卡或星礼卡就可以开始享用您的“金星级”好礼。</p><p>小贴士：请确保您在注册时输入的是您正确的邮寄地址或及时更新您帐户中的邮寄地址，否则您可能无法收到您的专属金卡。</p>',
+      },
+      {
+        title: '收到了我的专属金卡后该如何开始使用它？',
+        content: '<p>请带上您的专属金卡光顾中国大陆地区任何一家参加星享俱乐部活动的星巴克门店即可。该金卡一旦在门店使用，会自动成为您的星享俱乐部帐户的“活跃卡”，可以即时使用，以累积星星及尊享好礼。您无需登录星享俱乐部帐户或致电服务热线进行任何操作。您之前使用的星享卡将会自动成为您帐户的“休眠卡”。当然，您可以通过登录星享俱乐部帐户，更改“活跃卡”的选择。</p>',
+      },
+      {
+        title: '玉星级/金星级会员如何获得“生日邀请券”？',
+        content: '<p>玉星级/金星级会员将获得一张为庆贺您的下一个生日而免费赠送给您的一杯中杯饮料的电子兑换券。该电子兑换券将在您生日所在月份的第一天生效，在您生日所在月份的最后一天期满失效。请您注意，如果您升级为玉星级会员（或者由银星级会员直接升级为金星级会员）时所在的月份和您的生日所在的月份相同，并且您升级为玉星级会员（或者由银星级会员直接升级为金星级会员）的日期早于您生日的日期（例如：您在2017年12月3日升级成为玉星级会员，您的生日为12月7日），那么您的生日邀请券将在您下一个年度的生日所在月份的第一天生效。</p>',
+      },
+      {
+        title: '如何保持我的“金星级”会员资格？',
+        content: '<p>在您的星享俱乐部帐户的每个帐户周年日，系统会检查帐户内的星星数量，如果星星数量大于或等于25颗，该帐户将可以继续保留金星级会员等级1年。请见以下示例：</p><ul><li>2014年3月10日，小赵成功注册了会员；</li><li>2014年7月19日，小赵成功累积25颗星星，升级为金星级会员；</li><li>2015年3月10日，系统检查小赵帐户内的星星数量为大于25颗，小赵可以继续保留金星级会员等级1年，同时小赵帐户内的所有星星被清零；</li><li>2015年3月10日—2016年3月9日，小赵仍然是金星级会员，可以继续享用所有金星级好礼；</li><li>2016年3月10日，系统检查小赵帐户内的星星数量。如果星星数量大于或等于25颗，小赵可以继续保留金星级会员等级1年。如果星星数量小于25颗，那么小赵的会员等级降为银星级。</li></ul>',
+      },
+    ],
+  };
+
+  function renderTopFAQsList(list) {
+    return list.map(function(item) {
+      return (
+        '<div class="card collapsible teasing">' +
+          '<a class="header"><h2>' + item.title + '</h2></a>' +
+          '<div class="body"><div class="container">' + item.content + '</div></div>' +
+        '</div>'
+      )
+    }).join('')
+  }
+
+  $topFAQsList.html(
+    '<p>' + topFAQs.title + '</p>' +
+    '<div>' + renderTopFAQsList(topFAQs.list) + '</div>' +
+    '<p>' + topFAQs.footnote + '</p>'
+  )
+
+  window.stopEvtPropagation(document.querySelectorAll('#topFAQs-list .body .container p a'))
+
+  $.when($.get('/assets/search/help-index-zh.json'), $.get('/assets/search/help-source-zh.json')).done(function(indexs, faqs) {
+    var lunrSearchEngine = lunr.init(indexs[0]);
+    $helpSearchInput.bind('input', function (e) {
+      var inputVal = e.target.value;
+      if (!inputVal) {
+        $helpSearchResults.html('');
+        $topFAQsList.hasClass('hidden') && $topFAQsList.removeClass('hidden');
+        return
+      }
+
+      var searchResults = lunrSearchEngine.search(inputVal);
+      if (searchResults.length === 0) { // no matches
+        $helpSearchResults.html(
+          '<li>' +
+          '<h3 class="empty">'+ SEARCH_EMPTY +'</h3>' +
+          '</li>'
+        );
+        $topFAQsList.hasClass('hidden') && $topFAQsList.removeClass('hidden');
+        return
+      }
+
+      $topFAQsList.hasClass('hidden') || $topFAQsList.addClass('hidden');
+      var searchResults = lunrSearchEngine.search(e.target.value);
+      if (searchResults.length === 0) { // no matches
+        $helpSearchResults.html(
+          '<li>' +
+          '<h3 class="empty">'+ SEARCH_EMPTY +'</h3>' +
+          '</li>'
+        );
+        return
+      }
+      $helpSearchResults.html(function () {
+        var appendString = '';
+        for (var i = 0; i < searchResults.length; i++) {
+          var faq = faqs[0][searchResults[i].ref];
+          if (faq === undefined) {
+            continue;
+          }
+          appendString += '<li>';
+          appendString += '  <a class="overlay-close" href="' + faq.url + '" onClick="window.location.reload()">';
+          appendString += '    <h3>' + faq.title + '</h3>';
+          appendString += '  </a>';
+          appendString += '</li>';
+        }
+        return appendString;
+      }());
+    })
+  });
+})

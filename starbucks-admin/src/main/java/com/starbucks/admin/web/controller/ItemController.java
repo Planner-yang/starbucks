@@ -14,7 +14,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
  */
 @Controller
 @RequestMapping(value = "item")
-public class ItemController extends BaseContorller<TbItem, TbItemService> {
+public class ItemController extends BaseController<TbItem, TbItemService> {
 
 
     @Override

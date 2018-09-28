@@ -24,7 +24,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                ${empty tbContent.id ? '增加':'编辑'}内容
+                ${tbContent.id == 0 || tbContent.id == null ? '增加':'编辑'}内容
             </h1>
             <ol class="breadcrumb">
                 <li><a href="/main"><i class="fa fa-dashboard"></i>首页</a></li>
@@ -62,20 +62,13 @@
                                 </div>
                                 <div class="form-group">
                                     <label>内容标题</label>
-                                    <form:input cssClass="form-control required" path="title" placeholder="请输入内容标题"/>
+                                    <form:input cssClass="form-control required" path="title" placeholder="请输入标题"/>
                                 </div>
                                 <div class="form-group">
-                                    <label>子标题</label>
+                                    <label>内容标题</label>
                                     <form:input cssClass="form-control required" path="subTitle" placeholder="请输入子标题"/>
                                 </div>
-                                <div class="form-group">
-                                    <label>标题描述</label>
-                                    <form:input cssClass="form-control" path="titleDesc" placeholder="请输入标题描述"/>
-                                </div>
-                                <div class="form-group">
-                                    <label>链接</label>
-                                    <form:input cssClass="form-control" path="url" placeholder="请输入标题描述"/>
-                                </div>
+
                                 <div class="MyDropzone needsclick dz-clickable" id="dropzone1">
                                     <div class="dz-message needsclick">
                                         请添加图片<br>
@@ -85,21 +78,8 @@
                                     <label>图片1</label>
                                     <form:input cssClass="form-control" path="pic" readonly="true"/>
                                 </div>
-                                <div class="MyDropzone needsclick dz-clickable" id="dropzone2">
-                                    <div class="dz-message needsclick">
-                                        请添加图片<br>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>图片2</label>
-                                    <form:input cssClass="form-control" path="pic2" readonly="true"/>
-                                </div>
-                                <div class="form-group">
-                                    <label>内容</label>
-                                    <div id="container">
-                                    </div>
-                                    <form:input cssClass="form-control" path="content" readonly="true"/>
-                                </div>
+
+
                             </div>
                             <div class="box-footer">
                                 <button type="submit" class="btn btn-primary pull-right">提交</button>
@@ -129,8 +109,6 @@
     $(function () {
         starbucks.initTree("/content/category/treeData");
         starbucks.InitDropzone("dropzone1", "pic");
-        starbucks.InitDropzone("dropzone2", "pic2");
-        starbucks.InitUeditor();
     });
 </script>
 </body>

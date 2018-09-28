@@ -1,4 +1,7 @@
+com\starbucks\domain\BaseTreeEntity.class
+com\starbucks\domain\TbContentCategory.class
+com\starbucks\domain\TbContent.class
 com\starbucks\domain\BaseEntity.class
 com\starbucks\domain\TbItem.class
 com\starbucks\domain\TbItemCat.class
-com\starbucks\domain\BaseTreeEntity.class
+com\starbucks\domain\TbUser.class

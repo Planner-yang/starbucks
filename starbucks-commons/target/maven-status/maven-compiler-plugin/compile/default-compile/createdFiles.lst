@@ -1,4 +1,5 @@
 com\starbucks\commons\utils\MapperUtils.class
+com\starbucks\commons\SystemConstant.class
 com\starbucks\commons\utils\HttpClientUtils.class
 com\starbucks\commons\utils\MapperUtils$1.class
 com\starbucks\commons\dto\BaseResult.class

@@ -26,16 +26,20 @@ public final class API {
     /**
      * ItemCat/list接口名称
      */
-    public static final String HTTP_ITEMCAT_LIST = "/ItemCat/list";
+    public static final String HTTP_ITEMCAT_LIST = "/itemCat/list";
 
     /**
      * /ItemCat/getParentName接口名称
      */
-    public static final String HTTP_ITEMCAT_GETPARENTNAME = "/ItemCat/getParentName";
+    public static final String HTTP_ITEMCAT_GETPARENTNAME = "/itemCat/getParentName";
 
     /**
      * /Item/list接口名称
      */
-    public static final String HTTP_ITEM_LIST = "/Item/list";
+    public static final String HTTP_ITEM_LIST = "/item/list";
 
+    /**
+     * 菜单首页广告图片展示接口名称
+     */
+    public static final String HTTP_CONTENT_PPT = "/content/ppt";
 }

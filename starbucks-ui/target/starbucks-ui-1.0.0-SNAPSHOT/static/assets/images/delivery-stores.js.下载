@@ -1,0 +1,29 @@
+$(function () {
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  const nowTime = Date.now();
+  const paramTime = getParameterByName('publishDate');
+  const setupTime = /www\.starbucks\.com\.cn$/i.test(window.location.hostname) ?
+    null : paramTime && (new Date(paramTime)).valueOf() + 8 * 60 * 60 * 1000;
+
+  const $filterList = $('.loc-filter .options');
+  $('.loc-filter .selector').click(function(evt) {
+    $filterList.toggleClass('visible');
+  });
+
+  $('.delivery-stores .store').each(function(idx, elem) {
+    const $elem = $(elem);
+    const publishDate = $elem.attr('data-open');
+    const activeTime = (new Date(publishDate)).valueOf() + 8 * 60 * 60 * 1000;
+    if (setupTime && (setupTime > activeTime) || (nowTime > activeTime)) {
+      $elem.addClass('active');
+    }
+  });
+});

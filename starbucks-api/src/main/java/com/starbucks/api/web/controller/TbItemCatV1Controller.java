@@ -19,7 +19,7 @@ import java.util.List;
  * @ date 2018/9/26 14:05
  */
 @Controller
-@RequestMapping(value = "v1/ItemCat")
+@RequestMapping(value = "v1/itemCat")
 public class TbItemCatV1Controller {
 
     @Autowired

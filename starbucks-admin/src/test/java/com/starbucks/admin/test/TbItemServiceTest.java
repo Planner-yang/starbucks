@@ -5,6 +5,7 @@ import com.starbucks.domain.TbItem;
 import com.starbucks.domain.TbItemCat;
 
 
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,5 +83,21 @@ public class TbItemServiceTest {
     public void batchDelete() {
 
         tbItemService.batchDelete(new String[]{"1537868794877547000L","1537868753033552000L","1537868732725721000L"});
+    }
+
+    @Test
+    public void idUtils() {
+        long count  = 0;
+        int idLength = 3;
+        long currentTimeMillis = System.currentTimeMillis();
+        long random = (long) (100 + Math.random() * 899);
+        count++;
+
+        if (String.valueOf(count).length() > idLength) {
+            count = 0;
+        }
+
+        String strId = String.format("%s%s%s", currentTimeMillis, random, StringUtils.leftPad(String.valueOf(count), idLength, "0"));
+        System.out.println(strId);
     }
 }

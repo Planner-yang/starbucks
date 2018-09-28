@@ -5,7 +5,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>后台</b></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>MyShop-后台管理</b></span>
+        <span class="logo-lg"><b>星巴克-后台管理</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
